@@ -1,10 +1,24 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+// import Container from "react-bootstrap/Container"
 
-const Header = ({ siteTitle }) => {
+import headerStyles from './header.module.scss'
+
+const Header = () => {
   return (
-    <p></p>
+    <header className={headerStyles.header}>
+        <div className={headerStyles.innerHeader}>
+          <div >
+            <Link className={headerStyles.logo} to='/'>SDB</Link>
+          </div>
+          <nav>
+            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to='/'>Work</Link>
+            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to='/about'>About</Link>
+            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to='/contact'>Contact</Link>
+          </nav>
+        </div>
+      </header>
   )
 }
 
