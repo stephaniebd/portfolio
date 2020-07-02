@@ -10,8 +10,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <h1>Hi.</h1>
-      <h1>I'm Stephanie Beauzile-Domond</h1>
+      <h1 style={{ fontWeight: `500`}}>Hi.</h1>
+      <h1 style={{ fontWeight: `500`}}>I'm Stephanie Beauzile-Domond</h1>
       <h2>Junior UI/UX & Web designer living in MTL</h2>
       <div className={layoutStyles.link}>
         <p><Link className={layoutStyles.mainLink} to='/work'>Have a look</Link></p>

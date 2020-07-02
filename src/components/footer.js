@@ -16,8 +16,8 @@ const Footer = () => {
                     <a href="stephanie.beauzile.d@gmail.com">Stephanie Beauzile-Domond</a>   
                 </div>
                 <div className={footerStyles.icons}>
-                    <FontAwesomeIcon className={footerStyles.icon} icon={faLinkedin}/>
-                    <FontAwesomeIcon className={footerStyles.icon} icon={faGithubSquare}/>
+                    <a className={footerStyles.icon} href='https://www.linkedin.com/in/stephaniebd/' target='blank'><FontAwesomeIcon  icon={faLinkedin}/></a>
+                    <a className={footerStyles.icon} href='https://github.com/stephaniebd' target='blank'><FontAwesomeIcon  icon={faGithubSquare}/></a>
                 </div>
             </div>
         </>
