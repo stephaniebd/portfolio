@@ -10,8 +10,7 @@ import Col from 'react-bootstrap/Col'
 import Header from './header'
 import Footer from './footer'
 import '../styles/styles.scss'
-import layoutstyles from './layout.module.scss'
-
+import layoutStyles from './layout.module.scss'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,8 +26,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Container>
-        <div className={layoutstyles.subContainer}>
-          <div className={layoutstyles.content}>
+        <div className={layoutStyles.subContainer}>
+          <div className={layoutStyles.content}>
             <Header siteTitle={data.site.siteMetadata.title} />
             <main>{children}</main>
           </div>

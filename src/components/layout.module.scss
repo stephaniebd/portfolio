@@ -1,23 +1,27 @@
-// .container {
-//     max-width: 2560px;
-// }
-// .sub-container {
-//     // margin: 0 auto;
-//     max-width: 2560px;
-//     padding: 1rem;
-//     display: flex;
-//     flex-direction: column;
-//     min-height: 100vh;
-// }
-.container {
- 
-    max-width: 750px;
+.sub-container {
+    margin: 0 auto;
+    max-width: 1440px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
-
 .content {
     flex-grow: 1;
+}
+.link{
+    display: flex;
+    margin-top: 3rem;
+}
+.main-link {
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4rem;
+        color: #7D1128;
+        margin-right: 1.3rem;
+        text-decoration: none;
+        &:hover {
+            color: #C41E3D;
+            text-decoration: none;
+    }
 }

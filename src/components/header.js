@@ -1,7 +1,6 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-// import Container from "react-bootstrap/Container"
 
 import headerStyles from './header.module.scss'
 

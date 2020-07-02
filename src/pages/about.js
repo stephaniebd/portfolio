@@ -3,6 +3,7 @@ import {Link} from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from "../components/seo"
+import layoutStyles from '../components/layout.module.scss'
 
 const About = () => {
     return (
@@ -17,7 +18,7 @@ const About = () => {
                 mentalities and environments. Possesses a positive vibe and a strong work ethic.
                 Goal-oriented and consistently seeks opportunities for growth and increase technical 
                 skills and knowledge. </p>
-                <Link to=''>Resume</Link>
+                <Link className={layoutStyles.mainLink} to=''>Resume</Link>
         </Layout>
     )
 }

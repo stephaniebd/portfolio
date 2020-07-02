@@ -5,6 +5,7 @@ module.exports = {
     author: `Stephanie Beauzile-Domond`,
   },
   plugins: [
+    `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
